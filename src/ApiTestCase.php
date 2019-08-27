@@ -13,7 +13,7 @@ declare(strict_types=1);
 
 namespace ApiTestCase;
 
-use ApiTestCase\Symfony\WebTestCase;
+use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Coduo\PHPMatcher\Matcher;
 use Doctrine\Common\DataFixtures\Purger\ORMPurger;
 use Doctrine\ORM\EntityManager;
